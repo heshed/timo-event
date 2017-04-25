@@ -1,0 +1,35 @@
+hash: b8a09088aa66962f743dc5dfbc90d06d7823dfe66bad904f0e2e941157218ec2
+updated: 2017-04-26T00:58:20.1320577+09:00
+imports:
+- name: github.com/golang/protobuf
+  version: 2bba0603135d7d7f5cb73b2125beeda19c09f4ef
+  subpackages:
+  - proto
+  - protoc-gen-go
+- name: github.com/labstack/echo
+  version: 948d607539e92f3974d8f24951c8975d7342e24a
+- name: github.com/labstack/gommon
+  version: 9298d710c664bcd21c454120f63a00fb7d484458
+  subpackages:
+  - color
+  - log
+- name: github.com/mattn/go-colorable
+  version: ded68f7a9561c023e790de24279db7ebf473ea80
+- name: github.com/mattn/go-isatty
+  version: fc9e8d8ef48496124e79ae0df75490096eccf6fe
+- name: github.com/valyala/bytebufferpool
+  version: e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7
+- name: github.com/valyala/fasttemplate
+  version: dcecefd839c4193db0d35b88ec65b4c12d360ab0
+- name: golang.org/x/crypto
+  version: 141c762c16f10ba7daaac32541e4f703e53afb13
+  subpackages:
+  - acme
+  - acme/autocert
+- name: golang.org/x/sys
+  version: 9f30dcbe5be197894515a338a9bda9253567ea8f
+  subpackages:
+  - unix
+- name: google.golang.org/grpc
+  version: 8050b9cbc271307e5a716a9d782803d09b0d6f2d
+testImports: []
